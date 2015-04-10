@@ -1,0 +1,310 @@
+WARNING - [Jan 30 10:08:12] *NOTE*, Please set [gae]window=2 [gae]keepalive=1
+------------------------------------------------------
+GoAgent Version    : 3.1.18 (python/2.7.6 pyopenssl/0.13)
+Listen Address     : 127.0.0.1:8087
+GAE Mode           : https
+GAE Profile        : ipv4
+GAE APPID          : cinghu1984
+Pac Server         : http://172.16.1.173:8086/proxy.pac
+Pac File           : file:///root/github/tools/GFM_chrome/goagent-goagent-9b0cd10/local/proxy.pac
+------------------------------------------------------
+Traceback (most recent call last):
+  File "proxy.py", line 3324, in <module>
+    main()
+  File "proxy.py", line 3317, in main
+    server.serve_forever()
+  File "/usr/lib/python2.7/SocketServer.py", line 236, in serve_forever
+    poll_interval)
+  File "/usr/lib/python2.7/SocketServer.py", line 155, in _eintr_retry
+    return func(*args)
+KeyboardInterrupt
+WARNING - [Jan 30 10:08:15] *NOTE*, Please set [gae]window=2 [gae]keepalive=1
+------------------------------------------------------
+GoAgent Version    : 3.1.18 (python/2.7.6 pyopenssl/0.13)
+Listen Address     : 127.0.0.1:8087
+GAE Mode           : https
+GAE Profile        : ipv4
+GAE APPID          : cinghu1984
+Pac Server         : http://172.16.1.173:8086/proxy.pac
+Pac File           : file:///root/github/tools/GFM_chrome/goagent-goagent-9b0cd10/local/proxy.pac
+------------------------------------------------------
+Traceback (most recent call last):
+  File "proxy.py", line 3324, in <module>
+    main()
+  File "proxy.py", line 3317, in main
+    server.serve_forever()
+  File "/usr/lib/python2.7/SocketServer.py", line 236, in serve_forever
+    poll_interval)
+  File "/usr/lib/python2.7/SocketServer.py", line 155, in _eintr_retry
+    return func(*args)
+KeyboardInterrupt
+------------------------------------------------------
+GoAgent Version    : 3.1.18 (python/2.7.6 pyopenssl/0.13)
+Listen Address     : 127.0.0.1:8087
+GAE Mode           : https
+GAE Profile        : ipv4
+GAE APPID          : cinghu1984
+Pac Server         : http://172.16.1.173:8086/proxy.pac
+Pac File           : file:///root/github/tools/GFM_chrome/goagent-goagent-9b0cd10/local/proxy.pac
+------------------------------------------------------
+INFO - [Jan 30 10:08:23] resolve common.IPLIST_MAP names=['google_cn', 'google_hk', 'google_talk', 'google_ipv6', 'mtalk.google.com'] to iplist
+INFO - [Jan 30 10:08:23] resolve name=google_cn host to iplist=['203.208.45.200']
+INFO - [Jan 30 10:08:23] resolve name=google_hk host to iplist=['74.125.23.94', '203.208.45.200']
+INFO - [Jan 30 10:08:23] resolve name=google_talk host to iplist=['173.194.72.125']
+INFO - [Jan 30 10:08:23] resolve name=mtalk.google.com host to iplist=['64.233.187.188']
+INFO - [Jan 30 10:08:23] good_ipaddrs=0, bad_ipaddrs=0, unkown_ipaddrs=0
+INFO - [Jan 30 10:08:24] extend_iplist start for hosts=['www.google.com', 'mail.google.com', 'www.google.com.hk', 'www.google.com.tw', 'www1.l.google.com', 'www2.l.google.com', 'www3.l.google.com', 'www4.l.google.com', 'www5.l.google.com', 'www6.l.google.com', 'www.l.google.com', 'mail.l.google.com', 'googleapis.l.google.com', 'googlecode.l.googleusercontent.com', 'maps.l.google.com', 'code.l.google.com']
+INFO - [Jan 30 10:08:28] 127.0.0.1:52051 "STRIP CONNECT www.google.com.hk:443 HTTP/1.1" - -
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www.google.com.hk' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6f9444c> from ['8.8.8.8'] failed
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='mail.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6f87dcc> from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:08:28] dnslib_resolve_over_tcp 'www3.l.google.com' with ['8.8.4.4'] return gaierror(11004, "getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c7dc2c> from '8.8.4.4' failed")
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='www3.l.google.com' failed: [Errno 11004] getaddrinfo 'www3.l.google.com' from ['8.8.4.4'] failed
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='mail.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6f9854c> from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www1.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6f98ccc> from ['223.6.6.6'] failed
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='mail.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c59e0c> from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www1.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6f9478c> from ['114.114.115.115'] failed
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c5afac> from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www1.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c5a46c> from ['114.114.114.114'] failed
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='maps.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c5be4c> from ['8.8.8.8'] failed
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='googleapis.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c5f24c> from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www1.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c5bb4c> from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www1.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c597ac> from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www6.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6f98fec> from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www1.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6f941cc> from ['223.5.5.5'] failed
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='mail.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c5b66c> from ['8.8.8.8'] failed
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www1.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c5aa2c> from ['8.8.8.8'] failed
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='googleapis.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c5ab6c> from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='googleapis.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c5f40c> from ['8.8.4.4'] failed
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www5.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c6328c> from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www5.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6f9420c> from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:08:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www2.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c7760c> from ['8.8.8.8'] failed
+WARNING - [Jan 30 10:08:29] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www2.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c77dcc> from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:08:29] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www1.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c5b12c> from ['8.8.4.4'] failed
+WARNING - [Jan 30 10:08:29] dnslib_resolve_over_tcp 'googlecode.l.googleusercontent.com' with ['168.95.1.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:08:29] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='googlecode.l.googleusercontent.com' failed: [Errno 11004] getaddrinfo 'googlecode.l.googleusercontent.com' from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:08:29] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='googlecode.l.googleusercontent.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c7af0c> from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:08:29] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='code.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c7d8ec> from ['8.8.8.8'] failed
+WARNING - [Jan 30 10:08:29] dnslib_resolve_over_tcp 'maps.l.google.com' with ['168.95.192.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:08:29] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='maps.l.google.com' failed: [Errno 11004] getaddrinfo 'maps.l.google.com' from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:08:29] dnslib_resolve_over_tcp 'www3.l.google.com' with ['168.95.1.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:08:29] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='www3.l.google.com' failed: [Errno 11004] getaddrinfo 'www3.l.google.com' from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:08:29] dnslib_resolve_over_tcp 'www.l.google.com' with ['168.95.192.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:08:29] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='www.l.google.com' failed: [Errno 11004] getaddrinfo 'www.l.google.com' from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:08:29] dnslib_resolve_over_tcp 'www4.l.google.com' with ['168.95.192.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:08:29] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='www4.l.google.com' failed: [Errno 11004] getaddrinfo 'www4.l.google.com' from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:08:30] dnslib_resolve_over_tcp 'www.google.com.hk' with ['168.95.1.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:08:30] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='www.google.com.hk' failed: [Errno 11004] getaddrinfo 'www.google.com.hk' from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:08:30] dnslib_resolve_over_tcp 'mail.google.com' with ['168.95.192.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:08:30] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='mail.google.com' failed: [Errno 11004] getaddrinfo 'mail.google.com' from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:08:30] dnslib_resolve_over_tcp 'www.google.com' with ['168.95.1.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:08:30] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='www.google.com' failed: [Errno 11004] getaddrinfo 'www.google.com' from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:08:33] dnslib_resolve_over_tcp 'googleapis.l.google.com' with ['168.95.1.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:08:33] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='googleapis.l.google.com' failed: [Errno 11004] getaddrinfo 'googleapis.l.google.com' from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:08:34] dnslib_resolve_over_tcp 'mail.google.com' with ['168.95.1.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:08:34] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='mail.google.com' failed: [Errno 11004] getaddrinfo 'mail.google.com' from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:08:34] dnslib_resolve_over_tcp 'www6.l.google.com' with ['168.95.1.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:08:34] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='www6.l.google.com' failed: [Errno 11004] getaddrinfo 'www6.l.google.com' from ['168.95.1.1'] failed
+INFO - [Jan 30 10:08:35] 127.0.0.1:52077 "STRIP CONNECT www.google.com.hk:443 HTTP/1.1" - -
+INFO - [Jan 30 10:08:35] 127.0.0.1:52078 "STRIP CONNECT lh6.googleusercontent.com:443 HTTP/1.1" - -
+WARNING - [Jan 30 10:08:35] dnslib_resolve_over_tcp 'googlecode.l.googleusercontent.com' with ['168.95.192.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:08:35] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='googlecode.l.googleusercontent.com' failed: [Errno 11004] getaddrinfo 'googlecode.l.googleusercontent.com' from ['168.95.192.1'] failed
+INFO - [Jan 30 10:08:35] 127.0.0.1:52080 "STRIP CONNECT www.google.com.hk:443 HTTP/1.1" - -
+INFO - [Jan 30 10:08:35] good_ipaddrs=0, bad_ipaddrs=0, unkown_ipaddrs=0
+WARNING - [Jan 30 10:08:37] create_ssl_connection to 'www.google.com.hk' with [('74.125.23.94', 443), ('203.208.45.200', 443)] return timeout('timed out',), try again.
+INFO - [Jan 30 10:08:37] good_ipaddrs=0, bad_ipaddrs=2, unkown_ipaddrs=0
+WARNING - [Jan 30 10:08:37] dnslib_resolve_over_tcp 'www.l.google.com' with ['168.95.1.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:08:37] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='www.l.google.com' failed: [Errno 11004] getaddrinfo 'www.l.google.com' from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:08:37] dnslib_resolve_over_tcp 'www2.l.google.com' with ['168.95.192.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:08:37] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='www2.l.google.com' failed: [Errno 11004] getaddrinfo 'www2.l.google.com' from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:08:39] create_ssl_connection to 'www.google.com.hk' with [('203.208.45.200', 443), ('74.125.23.94', 443)] return timeout('timed out',), try again.
+INFO - [Jan 30 10:08:39] good_ipaddrs=0, bad_ipaddrs=2, unkown_ipaddrs=0
+WARNING - [Jan 30 10:08:41] create_ssl_connection to 'www.google.com.hk' with [('203.208.45.200', 443), ('74.125.23.94', 443)] return timeout('timed out',), try again.
+INFO - [Jan 30 10:08:41] good_ipaddrs=0, bad_ipaddrs=2, unkown_ipaddrs=0
+WARNING - [Jan 30 10:08:43] create_ssl_connection to 'www.google.com.hk' with [('203.208.45.200', 443), ('74.125.23.94', 443)] return timeout('timed out',), try again.
+INFO - [Jan 30 10:08:43] good_ipaddrs=0, bad_ipaddrs=2, unkown_ipaddrs=0
+WARNING - [Jan 30 10:08:45] create_ssl_connection to 'www.google.com.hk' with [('203.208.45.200', 443), ('74.125.23.94', 443)] return timeout('timed out',), try again.
+ERROR - [Jan 30 10:08:45] create_http_request "GET https://www.google.com.hk/?gws_rd=ssl" failed:timed out
+Traceback (most recent call last):
+  File "proxy.py", line 1847, in create_http_request
+    sock = create_connection(host, port, timeout, validate=validate, cache_key=cache_key)
+  File "proxy.py", line 1826, in create_ssl_connection
+    raise sock
+timeout: timed out
+
+INFO - [Jan 30 10:08:45] good_ipaddrs=0, bad_ipaddrs=2, unkown_ipaddrs=0
+WARNING - [Jan 30 10:08:47] create_ssl_connection to 'www.google.com.hk' with [('203.208.45.200', 443), ('74.125.23.94', 443)] return timeout('timed out',), try again.
+INFO - [Jan 30 10:08:47] good_ipaddrs=0, bad_ipaddrs=2, unkown_ipaddrs=0
+WARNING - [Jan 30 10:08:49] create_ssl_connection to 'www.google.com.hk' with [('203.208.45.200', 443), ('74.125.23.94', 443)] return timeout('timed out',), try again.
+INFO - [Jan 30 10:08:49] good_ipaddrs=0, bad_ipaddrs=2, unkown_ipaddrs=0
+INFO - [Jan 30 10:08:49] extend_iplist finished, added 0
+WARNING - [Jan 30 10:08:51] create_ssl_connection to 'www.google.com.hk' with [('203.208.45.200', 443), ('74.125.23.94', 443)] return timeout('timed out',), try again.
+INFO - [Jan 30 10:08:51] good_ipaddrs=0, bad_ipaddrs=2, unkown_ipaddrs=0
+WARNING - [Jan 30 10:08:53] create_ssl_connection to 'www.google.com.hk' with [('203.208.45.200', 443), ('74.125.23.94', 443)] return timeout('timed out',), try again.
+INFO - [Jan 30 10:08:53] good_ipaddrs=0, bad_ipaddrs=2, unkown_ipaddrs=0
+WARNING - [Jan 30 10:08:55] create_ssl_connection to 'www.google.com.hk' with [('203.208.45.200', 443), ('74.125.23.94', 443)] return timeout('timed out',), try again.
+ERROR - [Jan 30 10:08:55] create_http_request "GET https://www.google.com.hk/?gws_rd=ssl" failed:timed out
+Traceback (most recent call last):
+  File "proxy.py", line 1847, in create_http_request
+    sock = create_connection(host, port, timeout, validate=validate, cache_key=cache_key)
+  File "proxy.py", line 1826, in create_ssl_connection
+    raise sock
+timeout: timed out
+
+INFO - [Jan 30 10:09:23] extend_iplist start for hosts=['www.google.com', 'mail.google.com', 'www.google.com.hk', 'www.google.com.tw', 'www1.l.google.com', 'www2.l.google.com', 'www3.l.google.com', 'www4.l.google.com', 'www5.l.google.com', 'www6.l.google.com', 'www.l.google.com', 'mail.l.google.com', 'googleapis.l.google.com', 'googlecode.l.googleusercontent.com', 'maps.l.google.com', 'code.l.google.com']
+WARNING - [Jan 30 10:09:23] create_ssl_connection to 'cinghu1984.appspot.com' with [('203.208.45.200', 443), ('74.125.23.94', 443)] return timeout('timed out',), try again.
+INFO - [Jan 30 10:09:23] good_ipaddrs=0, bad_ipaddrs=2, unkown_ipaddrs=0
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www1.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6f4738c> from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6f4740c> from ['8.8.4.4'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='googlecode.l.googleusercontent.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6f4780c> from ['114.114.115.115'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www1.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c5f0ec> from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='code.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c5b4ac> from ['8.8.4.4'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www4.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c5b88c> from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www6.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c5be6c> from ['8.8.4.4'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www.google.com.tw' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c5b7ec> from ['8.8.4.4'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='mail.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c6ff8c> from ['8.8.4.4'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www.google.com.tw' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c595ac> from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='mail.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c59b8c> from ['8.8.4.4'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c594cc> from ['8.8.4.4'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www2.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c5976c> from ['8.8.4.4'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www.google.com.hk' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c5904c> from ['8.8.4.4'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c6fbac> from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='code.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c6fd0c> from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='googlecode.l.googleusercontent.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c7a38c> from ['8.8.8.8'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='mail.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c5a3cc> from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='googleapis.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6f474ec> from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www3.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6f98ecc> from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www1.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c5912c> from ['8.8.8.8'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www3.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c5a8ec> from ['8.8.8.8'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c5abac> from ['8.8.8.8'] failed
+WARNING - [Jan 30 10:09:27] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www.google.com.hk' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c591ac> from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www3.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6f9894c> from ['8.8.4.4'] failed
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='googlecode.l.googleusercontent.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c6f0ec> from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www.google.com.tw' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6f949ac> from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www1.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6f947ec> from ['114.114.115.115'] failed
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www1.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c7dacc> from ['223.5.5.5'] failed
+WARNING - [Jan 30 10:09:28] dnslib_resolve_over_tcp 'www2.l.google.com' with ['168.95.1.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='www2.l.google.com' failed: [Errno 11004] getaddrinfo 'www2.l.google.com' from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='googlecode.l.googleusercontent.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6f98c4c> from ['8.8.4.4'] failed
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www2.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c770ac> from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www5.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6f6636c> from ['8.8.4.4'] failed
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www1.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6f8782c> from ['8.8.4.4'] failed
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www4.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c7774c> from ['8.8.4.4'] failed
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www1.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6f87f2c> from ['114.114.114.114'] failed
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www5.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c7778c> from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='googleapis.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c7afec> from ['8.8.4.4'] failed
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='code.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c7f8ac> from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c8bf8c> from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_udp at 0xb6f339cc> remote host='www1.l.google.com' failed: [Errno 11004] getaddrinfo <dnslib.dns.DNSRecord object at 0xb6c77fec> from ['223.6.6.6'] failed
+WARNING - [Jan 30 10:09:28] dnslib_resolve_over_tcp 'maps.l.google.com' with ['168.95.1.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='maps.l.google.com' failed: [Errno 11004] getaddrinfo 'maps.l.google.com' from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:09:28] dnslib_resolve_over_tcp 'googleapis.l.google.com' with ['168.95.1.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='googleapis.l.google.com' failed: [Errno 11004] getaddrinfo 'googleapis.l.google.com' from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:09:28] dnslib_resolve_over_tcp 'mail.l.google.com' with ['168.95.192.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='mail.l.google.com' failed: [Errno 11004] getaddrinfo 'mail.l.google.com' from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:09:28] dnslib_resolve_over_tcp 'www.google.com.hk' with ['168.95.192.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='www.google.com.hk' failed: [Errno 11004] getaddrinfo 'www.google.com.hk' from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:09:28] dnslib_resolve_over_tcp 'www4.l.google.com' with ['168.95.1.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:28] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='www4.l.google.com' failed: [Errno 11004] getaddrinfo 'www4.l.google.com' from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:09:29] dnslib_resolve_over_tcp 'maps.l.google.com' with ['168.95.192.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:29] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='maps.l.google.com' failed: [Errno 11004] getaddrinfo 'maps.l.google.com' from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:09:29] dnslib_resolve_over_tcp 'mail.google.com' with ['8.8.8.8'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:29] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='mail.google.com' failed: [Errno 11004] getaddrinfo 'mail.google.com' from ['8.8.8.8'] failed
+WARNING - [Jan 30 10:09:29] dnslib_resolve_over_tcp 'mail.l.google.com' with ['8.8.8.8'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:29] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='mail.l.google.com' failed: [Errno 11004] getaddrinfo 'mail.l.google.com' from ['8.8.8.8'] failed
+WARNING - [Jan 30 10:09:30] dnslib_resolve_over_tcp 'maps.l.google.com' with ['8.8.4.4'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:30] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='maps.l.google.com' failed: [Errno 11004] getaddrinfo 'maps.l.google.com' from ['8.8.4.4'] failed
+WARNING - [Jan 30 10:09:31] dnslib_resolve_over_tcp 'www3.l.google.com' with ['168.95.192.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:31] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='www3.l.google.com' failed: [Errno 11004] getaddrinfo 'www3.l.google.com' from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:09:32] dnslib_resolve_over_tcp 'www5.l.google.com' with ['168.95.192.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:32] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='www5.l.google.com' failed: [Errno 11004] getaddrinfo 'www5.l.google.com' from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:09:32] dnslib_resolve_over_tcp 'googlecode.l.googleusercontent.com' with ['8.8.4.4'] return gaierror(11004, "getaddrinfo <dnslib.dns.DNSRecord object at 0xb5a83a4c> from '8.8.4.4' failed")
+WARNING - [Jan 30 10:09:32] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='googlecode.l.googleusercontent.com' failed: [Errno 11004] getaddrinfo 'googlecode.l.googleusercontent.com' from ['8.8.4.4'] failed
+WARNING - [Jan 30 10:09:32] dnslib_resolve_over_tcp 'www1.l.google.com' with ['168.95.192.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:32] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='www1.l.google.com' failed: [Errno 11004] getaddrinfo 'www1.l.google.com' from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:09:32] dnslib_resolve_over_tcp 'www.google.com' with ['8.8.4.4'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:32] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='www.google.com' failed: [Errno 11004] getaddrinfo 'www.google.com' from ['8.8.4.4'] failed
+------------------------------------------------------
+GoAgent Version    : 3.1.18 (python/2.7.6 pyopenssl/0.13)
+Listen Address     : 127.0.0.1:8087
+GAE Mode           : https
+GAE Profile        : ipv4
+GAE APPID          : cinghu1984
+Pac Server         : http://172.16.1.173:8086/proxy.pac
+Pac File           : file:///root/github/tools/GFM_chrome/goagent-goagent-9b0cd10/local/proxy.pac
+------------------------------------------------------
+Traceback (most recent call last):
+  File "proxy.py", line 3324, in <module>
+    main()
+  File "proxy.py", line 3300, in main
+    server = LocalProxyServer((common.PAC_IP, common.PAC_PORT), PACProxyHandler)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+WARNING - [Jan 30 10:09:33] dnslib_resolve_over_tcp 'www.google.com.tw' with ['168.95.1.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:33] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='www.google.com.tw' failed: [Errno 11004] getaddrinfo 'www.google.com.tw' from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:09:33] dnslib_resolve_over_tcp 'www4.l.google.com' with ['168.95.192.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:33] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='www4.l.google.com' failed: [Errno 11004] getaddrinfo 'www4.l.google.com' from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:09:33] dnslib_resolve_over_tcp 'googleapis.l.google.com' with ['168.95.192.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:33] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='googleapis.l.google.com' failed: [Errno 11004] getaddrinfo 'googleapis.l.google.com' from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:09:33] dnslib_resolve_over_tcp 'mail.google.com' with ['168.95.1.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:33] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='mail.google.com' failed: [Errno 11004] getaddrinfo 'mail.google.com' from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:09:33] dnslib_resolve_over_tcp 'code.l.google.com' with ['168.95.1.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:33] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='code.l.google.com' failed: [Errno 11004] getaddrinfo 'code.l.google.com' from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:09:33] dnslib_resolve_over_tcp 'googlecode.l.googleusercontent.com' with ['168.95.1.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:33] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='googlecode.l.googleusercontent.com' failed: [Errno 11004] getaddrinfo 'googlecode.l.googleusercontent.com' from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:09:33] dnslib_resolve_over_tcp 'www.l.google.com' with ['168.95.192.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:33] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='www.l.google.com' failed: [Errno 11004] getaddrinfo 'www.l.google.com' from ['168.95.192.1'] failed
+WARNING - [Jan 30 10:09:33] dnslib_resolve_over_tcp 'www.google.com.hk' with ['168.95.1.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:33] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='www.google.com.hk' failed: [Errno 11004] getaddrinfo 'www.google.com.hk' from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:09:33] dnslib_resolve_over_tcp 'www5.l.google.com' with ['168.95.1.1'] return timeout('timed out',)
+WARNING - [Jan 30 10:09:33] <function dnslib_resolve_over_tcp at 0xb6f33a04> remote host='www5.l.google.com' failed: [Errno 11004] getaddrinfo 'www5.l.google.com' from ['168.95.1.1'] failed
+WARNING - [Jan 30 10:09:40] *NOTE*, Please set [gae]window=2 [gae]keepalive=1
+------------------------------------------------------
+GoAgent Version    : 3.1.18 (python/2.7.6 pyopenssl/0.13)
+Listen Address     : 127.0.0.1:8087
+GAE Mode           : https
+GAE Profile        : ipv4
+GAE APPID          : cinghu1984
+Pac Server         : http://172.16.1.173:8086/proxy.pac
+Pac File           : file:///root/github/tools/GFM_chrome/goagent-goagent-9b0cd10/local/proxy.pac
+------------------------------------------------------
+Traceback (most recent call last):
+  File "proxy.py", line 3324, in <module>
+    main()
+  File "proxy.py", line 3300, in main
+    server = LocalProxyServer((common.PAC_IP, common.PAC_PORT), PACProxyHandler)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+INFO - [Jan 30 10:09:47] 127.0.0.1:52251 "STRIP CONNECT mtalk.google.com:443 HTTP/1.1" - -
+INFO - [Jan 30 10:09:49] extend_iplist finished, added 59
+WARNING - [Jan 30 10:09:54] *NOTE*, Please set [gae]window=2 [gae]keepalive=1
+------------------------------------------------------
+GoAgent Version    : 3.1.18 (python/2.7.6 pyopenssl/0.13)
+Listen Address     : 127.0.0.1:8087
+GAE Mode           : https
+GAE Profile        : ipv4
+GAE APPID          : cinghu1984
+Pac Server         : http://172.16.1.173:8086/proxy.pac
+Pac File           : file:///root/github/tools/GFM_chrome/goagent-goagent-9b0cd10/local/proxy.pac
+------------------------------------------------------
+Traceback (most recent call last):
+  File "proxy.py", line 3324, in <module>
+    main()
+  File "proxy.py", line 3300, in main
+    server = LocalProxyServer((common.PAC_IP, common.PAC_PORT), PACProxyHandler)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
